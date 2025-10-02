@@ -7,3 +7,12 @@ models:
         tests:
           - accepted_values:
               values: ['discounted','not_discounted']
+  - name: lineitem_bronze
+    columns:
+    - name: L_ORDERKEY
+      description: Primary key of the lineitem table
+      tests:
+      - unique:
+        config:
+          severity: warn
+      - not_null              
