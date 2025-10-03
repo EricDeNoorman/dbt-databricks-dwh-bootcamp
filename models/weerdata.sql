@@ -1,0 +1,1 @@
+SELECT * FROM {{ source('weerdata', 'weerdata_gilze_rijen') }};

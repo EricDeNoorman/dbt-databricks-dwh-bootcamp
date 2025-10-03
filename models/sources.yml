@@ -28,3 +28,8 @@ sources:
                       config:
                         severity: warn
                   - not_null
+  - name: weerdata
+    database: playground  
+    schema: dbt_ericmuhren  
+    tables:
+      - name: weerdata_gilze_rijen
