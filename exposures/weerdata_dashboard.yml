@@ -1,0 +1,11 @@
+exposures:
+  - name: weerdata_dashboard
+    label: Weerdata Dashboard
+    type: dashboard
+    maturity: high
+    url: https://jouw-bi-tool/dashboard/sales
+    description: "Dashboard weerdata"
+    depends_on:
+      - source('weerdata','weerdata_gilze_rijen')
+    owner:
+      name: Eric Mühren

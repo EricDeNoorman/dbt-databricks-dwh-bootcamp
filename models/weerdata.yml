@@ -87,3 +87,4 @@ models:
     description: Uurvak waarin UN is gemeten / Hourly division in which UN was measured
   - name: ev24
     description: Referentiegewasverdamping (Makkink) (in 0.1 mm) / Potential evapotranspiration (Makkink) (in 0.1 mm)
+
