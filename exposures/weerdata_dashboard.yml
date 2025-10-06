@@ -7,5 +7,6 @@ exposures:
     description: "Dashboard weerdata"
     depends_on:
       - source('weerdata','weerdata_gilze_rijen')
+      - ref('weerdata')
     owner:
       name: Eric Mühren
