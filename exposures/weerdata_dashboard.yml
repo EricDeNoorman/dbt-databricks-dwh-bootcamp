@@ -8,5 +8,6 @@ exposures:
     depends_on:
       - source('weerdata','weerdata_gilze_rijen')
       - ref('weerdata')
+      - ref('weerdata_opgemaakt')
     owner:
       name: Eric Mühren
