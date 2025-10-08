@@ -6,6 +6,8 @@ models:
 
     SOURCE: ROYAL NETHERLANDS METEOROLOGICAL INSTITUTE (KNMI)  
     Comment: These time series are inhomogeneous because of station relocations and changes in observation techniques. As a result, these series are not suitable for trend analysis. For climate change studies we refer to the homogenized series of monthly temperatures of De Bilt <http://www.knmi.nl/kennis-en-datacentrum/achtergrond/gehomogeniseerde-reeks-maandtemperaturen-de-bilt> or the Central Netherlands Temperature <http://www.knmi.nl/kennis-en-datacentrum/achtergrond/centraal-nederland-temperatuur-cnt>.
+  config:
+      access: public
   columns:
   - name: yyyymmdd
     description: Datum (YYYY=jaar MM=maand DD=dag) / Date (YYYY=year MM=month DD=day)
