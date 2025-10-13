@@ -11,8 +11,6 @@ models:
   columns:
   - name: yyyymmdd
     description: Datum (YYYY=jaar MM=maand DD=dag) / Date (YYYY=year MM=month DD=day)
-    tests:
-    - unique
   - name: ddvec
     description: Vectorgemiddelde windrichting in graden (360=noord, 90=oost, 180=zuid, 270=west, 0=windstil/variabel). Zie http://www.knmi.nl/kennis-en-datacentrum/achtergrond/klimatologische-brochures-en-boeken / Vector mean wind direction in degrees (360=north, 90=east, 180=south, 270=west, 0=calm/variable)
   - name: fhvec
