@@ -30,7 +30,7 @@ sources:
                   - not_null
   - name: weerdata
     freshness:
-      warn_after: {count: 5, period: minute}
+      warn_after: {count: 600, period: minute}
       error_after: {count: 700, period: day}
     database: playground  
     schema: dbt_ericmuhren  
