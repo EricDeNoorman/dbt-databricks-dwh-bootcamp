@@ -1,1 +1,1 @@
-SELECT yyyymmdd as datum, tx/10 as temperatuur, rh/10 as regen FROM {{ ref('weerdata') }};
+SELECT yyyymmdd as datum, tx/10 as temperatuur, rh/10 as regen FROM {{ ref('weerdata') }}
